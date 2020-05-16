@@ -1,0 +1,62 @@
+/* Need to make this "normal" from 991 to 641 */
+/*@media (max-width:991px){
+    .navbar {
+        flex-direction: column;
+        padding: 0;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .center_div{
+        justify-content: center;
+        margin-left: 20%;
+        margin-left: 20%;
+    }
+}*/
+
+@media (min-width:641px){
+    .navbar{
+        padding-left:3rem;
+    }
+    .navbar-nav{
+        flex-direction: row;
+        float: right;
+    }
+    .center-div{
+        margin-left: 175px;
+        margin-right: 175px;
+    }
+}
+
+@media (max-width:640px){
+    .navbar {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
+     
+    #fix-text {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+
+    .card{
+        margin-left: 7rem;
+    }
+
+    /* .port-boxes{
+        margin-left: 0 auto;
+        float: none;
+    }
+   /* .center_div{
+        margin-left: 200px;
+        margin-left: 200px;
+    } */
+}
